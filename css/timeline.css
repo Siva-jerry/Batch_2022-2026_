@@ -1,0 +1,148 @@
+.timeline-section{
+  margin:100px 6%;
+  padding:100px 30px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(20px);
+  border-radius:30px;
+  text-align:center;
+}
+
+/* WRAPPER */
+.timeline-wrapper{
+  position:relative;
+  margin-top:60px;
+}
+
+/* LINE */
+.timeline-line{
+  position:absolute;
+  left:50%;
+  width:4px;
+  height:100%;
+  background:rgba(255,255,255,0.2);
+  transform:translateX(-50%);
+}
+
+/* 🔥 ANIMATED PROGRESS */
+.timeline-progress{
+  width:100%;
+  height:0%;
+  background:linear-gradient(to bottom,#ff4d9d,#00bfff);
+  transition:height 0.2s linear;
+}
+
+/* ITEM */
+.timeline-item{
+  position:relative;
+  width:50%;
+  padding:40px 30px;
+  box-sizing:border-box;
+}
+
+/* LEFT */
+.timeline-item:nth-child(odd){
+  left:0;
+  text-align:right;
+  padding-right:60px;
+}
+
+.timeline-item:nth-child(even){
+  left:50%;
+  text-align:left;
+  padding-left:60px;
+}
+
+/* DOT */
+.timeline-dot{
+  position:absolute;
+  top:40px;
+  right:-10px;
+  width:18px;
+  height:18px;
+  background:#ff4d9d;
+  border-radius:50%;
+  box-shadow:0 0 20px #ff4d9d;
+}
+
+.timeline-item:nth-child(even) .timeline-dot{
+  left:-9px;
+}
+
+/* CARD */
+.timeline-card{
+  background:rgba(255,255,255,0.06);
+  padding:20px;
+  border-radius:20px;
+  backdrop-filter:blur(15px);
+  transition:0.4s;
+  cursor:pointer;
+}
+
+.timeline-card:hover{
+  transform:scale(1.05);
+}
+
+/* VIDEO */
+.timeline-card video{
+  width:100%;
+  margin-top:10px;
+  border-radius:15px;
+  display:none;
+}
+
+/* ACTIVE (CLICK EFFECT) */
+.timeline-card.active video{
+  display:block;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+  .timeline-line{
+    left:10px;
+  }
+
+  .timeline-item{
+    width:100%;
+    left:0 !important;
+    text-align:left !important;
+    padding-left:40px;
+  }
+
+  .timeline-dot{
+    left:0 !important;
+  }
+
+}
+.timeline-media video,
+.timeline-media img{
+  width:100%;
+  border-radius:15px;
+  margin-top:10px;
+}
+.timeline-media{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:12px;
+  margin-top:12px;
+}
+
+/* 🔥 FINAL FIX (NO CROP + CLEAN GRID) */
+.timeline-media video,
+.timeline-media img{
+  width:100%;
+  height:auto;              /* ✅ REMOVE FIXED HEIGHT */
+  max-height:220px;         /* ✅ CONTROL SIZE */
+  object-fit:contain;       /* ✅ NO CROP */
+  border-radius:12px;
+  background:#000;          /* ✅ NICE LOOK */
+  cursor:pointer;
+  transition:0.3s;
+}
+
+/* HOVER */
+.timeline-media video:hover,
+.timeline-media img:hover{
+  transform:scale(1.05);
+  box-shadow:0 10px 25px rgba(0,0,0,0.6);
+}

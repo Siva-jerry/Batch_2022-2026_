@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>IT Batch 2022 - 2026 | Farewell Memories</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/video.css">
+<link rel="stylesheet" href="css/seniors.css">
+<link rel="stylesheet" href="css/faculty.css">
+<link rel="stylesheet" href="css/timeline.css">
+<link rel="stylesheet" href="css/fun.css">
+<link rel="stylesheet" href="css/messages.css">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+
+    <!-- FLOATING EMOJIS BACKGROUND -->
+
+<div class="emoji-bg">
+
+<span class="emoji" style="left:10%;animation-delay:0s;">🎓</span>
+<span class="emoji" style="left:20%;animation-delay:3s;">❤️</span>
+<span class="emoji" style="left:35%;animation-delay:6s;">🎉</span>
+<span class="emoji" style="left:50%;animation-delay:1s;">📸</span>
+<span class="emoji" style="left:65%;animation-delay:4s;">✨</span>
+<span class="emoji" style="left:80%;animation-delay:2s;">🎶</span>
+<span class="emoji" style="left:90%;animation-delay:5s;">🎊</span>
+
+</div>
+<div class="particles"></div>
+<div id="sparkle-container"></div>
+
+<!-- 🎵 MUSIC BUTTON -->
+<div class="music-control" id="musicToggle">
+🎵
+</div>
+
+<!-- 🎵 Background Music -->
+<audio id="bgMusic" loop>
+<source src="assets/audio/Audio.mp4" type="audio/mp4">
+</audio>
+
+<!-- HERO SECTION -->
+
+<section class="hero fade-in">
+
+<div class="hero-content">
+
+<h1 data-aos="fade-down">
+🎓 Farewell To Our Amazing Seniors
+</h1>
+
+<h2 data-aos="fade-up">
+B.Tech Information Technology
+</h2>
+
+<h3 data-aos="fade-up">
+Batch 2022 – 2026
+</h3>
+
+<p class="college-name" data-aos="fade-up">
+🏫 J.P. College Of Engineering
+</p>
+
+<p class="tagline" data-aos="fade-up">
+✨ "4 Years… Countless Memories… One Beautiful Journey."
+</p>
+
+<button class="start-btn">
+👇 Start the Journey
+</button>
+
+<div class="scroll-indicator">
+⬇ Scroll for Memories
+</div>
+
+</div>
+
+<div class="hero-animation">
+
+<lottie-player
+src="assets/lottie/graduation.json"
+background="transparent"
+speed="1"
+style="width:350px;height:350px"
+loop
+autoplay>
+</lottie-player>
+
+</div>
+
+</section>
+
+
+
+<section class="quote-section fade-in">
+
+<div class="quote">
+
+<p>
+“We didn’t realize we were making memories…  
+we just knew we were having fun.”
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="memories" class="gallery-section fade-in">
+
+<h2 data-aos="fade-up">📸 Our Beautiful Memories</h2>
+
+<p data-aos="fade-up">
+From classrooms to canteens, symposiums to tours —
+every moment became a memory.
+</p>
+
+<div class="gallery-grid" id="galleryContainer"></div>
+
+</section>
+
+
+
+<section id="videos" class="video-section fade-in">
+
+<h2 data-aos="fade-up">🎬 Video Memories</h2>
+
+<p data-aos="fade-up">
+Relive the laughter, emotions and unforgettable moments.
+</p>
+
+<div class="video-carousel" id="videoCarousel"></div>
+
+</section>
+
+
+<section id="seniors" class="seniors-section fade-in">
+
+<h2 data-aos="fade-up">👨‍🎓 Meet Our Amazing Seniors</h2>
+
+<p data-aos="fade-up">
+Our journey is incomplete without these amazing souls ❤️
+</p>
+
+<!-- 👩 GIRLS -->
+<h3 class="group-title">👩‍🎓 Our Super Girls</h3>
+<div class="seniors-grid" id="girlsContainer"></div>
+
+<!-- 👨 BOYS -->
+<h3 class="group-title">👨‍🎓 Our Awesome Boys</h3>
+<div class="seniors-grid" id="boysContainer"></div>
+
+</section>
+
+
+
+<section id="faculty" class="faculty-section fade-in">
+
+<h2 data-aos="fade-up">👩‍🏫 Faculty Messages</h2>
+
+<p data-aos="fade-up">
+Teachers who guided and inspired this journey ❤️
+</p>
+
+<div class="faculty-grid" id="facultyContainer"></div>
+
+</section>
+
+
+<section id="timeline" class="timeline-section fade-in">
+
+<h2 data-aos="fade-up">⏳ Our 4 Year Journey</h2>
+<p data-aos="fade-up">From strangers to family ❤️</p>
+
+<div class="timeline-wrapper">
+
+  <!-- PROGRESS LINE -->
+  <div class="timeline-line">
+    <div class="timeline-progress" id="timelineProgress"></div>
+  </div>
+
+  <!-- YEAR ITEMS -->
+
+  <div class="timeline-item" data-year="2022">
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+      <h3>2022 🎓</h3>
+      <p>First day, new friends, nervous smiles 😍</p>
+      
+
+     <!-- ✅ ADD THIS -->
+  <div class="timeline-media" id="media-2022"></div>
+
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2023">
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+      <h3>2023 🚀</h3>
+      <p>Symposiums, fun & unforgettable memories 🎉</p>
+
+       <!-- ✅ ADD THIS -->
+  <div class="timeline-media" id="media-2023"></div>
+
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2024">
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+      <h3>2024 💻</h3>
+      <p>Projects, stress, growth & bonding 💪</p>
+
+       <!-- ✅ ADD THIS -->
+  <div class="timeline-media" id="media-2024"></div>
+
+    </div>
+  </div>
+  <div class="timeline-item" data-year="2025">
+  <div class="timeline-dot"></div>
+
+  <div class="timeline-card">
+    <h3>2025 🌟</h3>
+    <p>Internships, placements & real-world journey 💼</p>
+
+     <!-- ✅ ADD THIS -->
+  <div class="timeline-media" id="media-2025"></div>
+
+  </div>
+</div>
+
+  <div class="timeline-item" data-year="2026">
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+      <h3>2026 ❤️</h3>
+      <p>Farewell, tears & forever memories 😢</p>
+
+      <!-- ✅ ADD THIS -->
+  <div class="timeline-media" id="media-2026"></div>
+
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+
+
+<section id="funAwards" class="fun-awards fade-in">
+
+<h2>😂 Fun Memories & Awards</h2>
+
+<p>
+Because college life is not complete without laughter.
+</p>
+
+<!-- 🔥 ADD THIS CONTAINER -->
+<div class="fun-grid" id="funContainer"></div>
+
+</section>
+
+
+
+<section id="messages" class="messages fade-in">
+
+  <h2>💌 Messages For Our Seniors</h2>
+
+  <p>
+    From juniors with love ❤️
+  </p>
+
+  <!-- 🔥 ADD THIS -->
+  <div class="notes-board" id="notesContainer"></div>
+
+</section>
+
+
+
+<section class="surprise fade-in">
+
+<h2>🎁 Special Surprise</h2>
+
+<p>
+A special memory waiting for you...
+</p>
+
+<a href="pages/surprise.html">
+<button class="surprise-btn">
+Open Surprise ❤️
+</button>
+</a>
+
+</section>
+
+
+
+<section class="celebration">
+
+<lottie-player
+src="assets/lottie/celebration.json"
+background="transparent"
+speed="1"
+style="width:300px;height:300px"
+loop
+autoplay>
+</lottie-player>
+
+</section>
+
+
+
+<footer>
+
+<p>
+Made with ❤️ by Juniors  
+for IT Batch 2022 – 2026
+</p>
+
+</footer>
+
+
+
+<script src="js/script.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/video.js"></script>
+<script src="js/seniors.js"></script>
+<script src="js/faculty.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/fun.js"></script>
+<script src="js/messages.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1200
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+
+@media (max-width: 768px){
+
+  /* SECTION */
+  .seniors-section{
+    margin:30px 3%;
+    padding:25px 10px;
+  }
+
+  /* GRID */
+  .seniors-grid{
+    grid-template-columns:repeat(2, 1fr);
+    gap:12px;
+  }
+
+  /* CARD SIZE */
+  .card-inner{
+    height:170px;
+  }
+
+  /* IMAGE */
+  .card-front img{
+    object-fit:cover;
+    object-position:center top;
+  }
+
+  /* TEXT */
+  h1{
+    font-size:22px;
+  }
+
+  h2{
+    font-size:18px;
+  }
+
+  .group-title{
+    font-size:16px;
+  }
+
+  .overlay h3{
+    font-size:13px;
+  }
+
+  .overlay p{
+    font-size:11px;
+  }
+
+}
