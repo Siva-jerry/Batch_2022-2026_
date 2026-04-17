@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 👩 GIRLS (22)
 
     {
-      name: "Anchana",
+      name: "Anchana M",
       nickname: "Pree 💖",
       role: "UI Queen 🎨",
       quote: "Design speaks louder than words ❤️",
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     {
-      name: "Mathumitha",
+      name: "Mathumitha M",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
      {
-      name: "Gopica",
+      name: "Gopica A",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
      {
-      name: "Sabna Asmi",
+      name: "Sabna Asmi S",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
      {
-      name: "Jeba Asin",
+      name: "Jeba Asin D",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Remina Banu",
+      name: "Remina Banu S",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Carolyn Cristina",
+      name: "Carolyn Cristina R",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Roselin",
+      name: "Roselin G",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Jazeera Mymoon",
+      name: "Mohammed Jazeera Mymoon A",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Sugirthana",
+      name: "Sugirthana S",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Velankanni",
+      name: "Velankanni I",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Kavya",
+      name: "Kaviya A",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Karthika Devi",
+      name: "Karthika Devi S",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Sugitha",
+      name: "Sugitha M",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Rahmath Ansarna",
+      name: "Rahmath Ansarna N",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Hebziba Lily Pushpam",
+      name: "Hebziba Lily Pushpam Y",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Madhumitha",
+      name: "Madhumitha B",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Arthy",
+      name: "Arthy T",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Priya",
+      name: "Priya R",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Merlin",
+      name: "Merlin A",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "girl"
     },
     {
-      name: "Jamila Abitha",
+      name: "Jamila Abitha A",
       nickname: "Anju ✨",
       role: "Creative Mind",
       quote: "Always smiling 😊",
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
      {
-      name: "Abisheik ",
+      name: "Abisheik K",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
      {
-      name: "Vinith Kumar",
+      name: "VinithKumar B",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Nallayan",
+      name: "Nallaiyan S K",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Mohammad Sheik Mydin A",
+      name: "Mohammad Sheik Myddin A",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Selva Kumar",
+      name: "SelvaKumar M",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Meshak Raja",
+      name: "Meshak Raja A",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Kabinesh",
+      name: "Kabinesh M",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Sakthivel",
+      name: "Sakthivel K",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Elango Abiraj",
+      name: "Elango Abiraj J",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Tamilarasan",
+      name: "Tamilarasan M",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -342,7 +342,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
      {
-      name: "Sakthivel",
+      name: "Isac Prakash P",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
       {
-      name: "Ayyanar",
+      name: "Ayyanar J",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
       {
-      name: "Santhosh",
+      name: "Santhosh Raj G",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -366,7 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
      {
-      name: "Jeba Prakash",
+      name: "Jeba Prakash J",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -374,15 +374,15 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Sankar",
+      name: "Sankar M",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
-      imgBase: "assets/images/seniors/boys/b30",
+      imgBase: "assets/images/seniors/boys/b34",
       gender: "boy"
     },
     {
-      name: "Jegan Yadhav",
+      name: "Jagan Yadav M",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
@@ -390,13 +390,108 @@ document.addEventListener("DOMContentLoaded", () => {
       gender: "boy"
     },
     {
-      name: "Kabinesh",
+      name: "Kabilesh K S",
       nickname: "Boss 😎",
       role: "Team Leader",
       quote: "Always guiding us 🚀",
-      imgBase: "assets/images/seniors/boys/b22",
+      imgBase: "assets/images/seniors/boys/b28",
       gender: "boy"
     },
+    {
+      name: "Karthick S",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b23",
+      gender: "boy"
+    },
+    {
+      name: "Kaja Mohaideen D",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b33",
+      gender: "boy"
+    },
+    {
+      name: "Haran M",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b24",
+      gender: "boy"
+    },
+    {
+      name: "Gogula Kalyan M",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b32",
+      gender: "boy"
+    },
+    {
+      name: "Madhesh T",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b31",
+      gender: "boy"
+    },
+    {
+      name: "Abishek L",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b25",
+      gender: "boy"
+    },
+    {
+      name: "Sachien M",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b26",
+      gender: "boy"
+    },
+     {
+      name: "Kerzone E",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b35",
+      gender: "boy"
+    },
+     {
+      name: "MuthuKumar K",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b36",
+      gender: "boy"
+    },
+       {
+      name: "Guru Akash P",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b27",
+      gender: "boy"
+    },
+     {
+      name: "Natheem A",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b29",
+      gender: "boy"
+    },
+
+    
+    
+    
+    
+    
+    
     
     
     

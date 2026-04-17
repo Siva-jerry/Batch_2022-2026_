@@ -15,28 +15,35 @@ document.addEventListener("DOMContentLoaded", () => {
 const facultyVideos = [
 
   {
-    name: "Dr. Kumar",
+    name: "Senthil Murugan",
     message: "All the best for your bright future ❤️",
     videoBase: "assets/videos/faculty/f1"
   },
 
   {
-    name: "Ms. Priya",
+    name: "Chermakkani",
     message: "Keep learning and growing ✨",
     videoBase: "assets/videos/faculty/f2"
   },
 
   {
-    name: "Mr. Arun",
+    name: "Ramalakshmi",
     message: "Success is waiting for you 🚀",
     videoBase: "assets/videos/faculty/f3"
   },
 
   {
-    name: "Mrs. Lakshmi",
+    name: "Ajitha",
     message: "Never stop dreaming 💫",
     videoBase: "assets/videos/faculty/f4"
-  }
+  },
+    {
+    name: "Muthulakshmi",
+    message: "Never stop dreaming 💫",
+    videoBase: "assets/videos/faculty/f5"
+  },
+  
+   
 
   // 👉 continue like this...
 

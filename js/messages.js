@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Anantharaj",
       year: "3rd Year",
-      text: "Anna neenga mass 😎 Miss pannuvom ❤️"
+      text: "All the best for your future 💫"
     },
 
     {
@@ -28,11 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     {
-      name: "Siva",
-      year: "1st Year",
-      text: "All the best for your future 💫"
-    },
-     {
       name: "Siva",
       year: "1st Year",
       text: "All the best for your future 💫"
