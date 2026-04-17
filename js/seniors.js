@@ -341,6 +341,64 @@ document.addEventListener("DOMContentLoaded", () => {
       imgBase: "assets/images/seniors/boys/b18",
       gender: "boy"
     },
+     {
+      name: "Sakthivel",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b19",
+      gender: "boy"
+    },
+      {
+      name: "Ayyanar",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b20",
+      gender: "boy"
+    },
+      {
+      name: "Santhosh",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b21",
+      gender: "boy"
+    },
+     {
+      name: "Jeba Prakash",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b30",
+      gender: "boy"
+    },
+    {
+      name: "Sankar",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b30",
+      gender: "boy"
+    },
+    {
+      name: "Jegan Yadhav",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b22",
+      gender: "boy"
+    },
+    {
+      name: "Kabinesh",
+      nickname: "Boss 😎",
+      role: "Team Leader",
+      quote: "Always guiding us 🚀",
+      imgBase: "assets/images/seniors/boys/b22",
+      gender: "boy"
+    },
+    
+    
     
     
     
