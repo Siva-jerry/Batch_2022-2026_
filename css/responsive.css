@@ -49,16 +49,3 @@
   }
 
 }
-@media (max-width: 768px){
-
-  .hero{
-    flex-direction:column;
-    text-align:center;
-    flex-wrap:wrap;   /* ✅ allow stacking in mobile */
-  }
-
-  .hero-animation{
-    margin-top:20px;
-  }
-
-}
