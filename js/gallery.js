@@ -3,7 +3,7 @@
 ========================= */
 
 const imageNames = [];
-const totalImages = 170;
+const totalImages = 172;
 
 for(let i = 1; i <= totalImages; i++){
   imageNames.push(`img${i}`);

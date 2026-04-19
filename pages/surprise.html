@@ -14,41 +14,71 @@
 
 <body>
 
+<!-- 🎬 INTRO -->
+<div id="introScreen">
+  <h1 class="intro-text">Batch 2022 – 2026 Signing Off 💔</h1>
+  <p class="intro-sub">A Journey That Became Memories 💔</p>
+</div>
+
+<!-- 🎞 FULLSCREEN SLIDESHOW -->
+<div class="fullscreen-slideshow">
+  <img src="../assets/surprise/img1.png">
+  <img src="../assets/surprise/img2.jpeg">
+  <img src="../assets/surprise/img3.jpg">
+</div>
+
+<!-- 🕊 HEART PARTICLES -->
+<div id="hearts"></div>
+
 <!-- 🎵 MUSIC -->
 <audio id="sadMusic" loop>
-  <source src="../assets/audio/farewell.mp3" type="audio/mp3">
+  <source src="../assets/audio/farewell.mpeg" type="audio/mp3">
 </audio>
 
-<!-- 🔊 BUTTON -->
 <div class="music-btn" id="playMusic">🎵</div>
 
+<!-- 💬 QUOTE -->
+<div class="floating-quote"></div>
+
+<!-- 🔥 CONTENT -->
 <h1 class="fade">💔 Farewell Moments</h1>
 <p class="fade">Some memories are too emotional to forget...</p>
 
 <div class="surprise-grid">
 
+  <!-- IMAGE -->
   <div class="card fade">
-    <img src="../assets/surprise/img1.jpg">
+    <img src="../assets/surprise/img1.png" class="zoom">
   </div>
 
   <div class="card fade">
-    <img src="../assets/surprise/img2.jpg">
+    <img src="../assets/surprise/img2.jpeg" class="zoom">
   </div>
 
-  <div class="card fade">
-    <video controls>
-      <source src="../assets/surprise/video1.mp4" type="video/mp4">
-    </video>
+  <!-- VIDEO -->
+  <div class="card fade video-card" data-video="../assets/surprise/video1.mp4">
+    <img src="../assets/surprise/thumb1.jpg">
+    <div class="play-btn">▶</div>
   </div>
 
-  <div class="card fade">
-    <video controls>
-      <source src="../assets/surprise/video2.mp4" type="video/mp4">
-    </video>
+  <div class="card fade video-card" data-video="../assets/surprise/video2.mp4">
+    <img src="../assets/surprise/thumb2.png">
+    <div class="play-btn">▶</div>
   </div>
 
 </div>
 
+<!-- 🎬 VIDEO POPUP -->
+<div id="videoPopup" class="video-popup">
+  <span class="close">✖</span>
+  <video id="popupVideo" controls autoplay></video>
+</div>
+<div id="imagePopup" class="image-popup">
+  <span class="close-img">✖</span>
+  <img id="popupImage">
+</div>
+
+<!-- 🔙 BACK -->
 <a href="../index.html" class="back-btn fade">⬅ Back</a>
 
 <script src="../js/surprise.js"></script>
