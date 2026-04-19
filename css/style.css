@@ -100,13 +100,11 @@ z-index:2;
 /* HERO */
 
 .hero{
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-
-  flex-wrap:nowrap;        /* ✅ FIX */
-  gap:40px;                /* spacing */
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
 }
 
 .hero-content{
@@ -116,12 +114,6 @@ padding:50px;
 border-radius:25px;
 backdrop-filter:blur(15px);
 box-shadow:0 20px 40px rgba(0,0,0,0.5);
-}
-.hero-animation{
-  flex:1;
-  display:flex;
-  justify-content:center;
-  align-items:center;
 }
 
 .hero h1{
